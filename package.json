@@ -1,0 +1,22 @@
+{
+  "name": "gruppegrak",
+  "version": "1.0.0",
+  "description": "basicly",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seayprem/discord-bot-gruppegrak-music.git"
+  },
+  "author": "seayprem || wanchai saelim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seayprem/discord-bot-gruppegrak-music/issues"
+  },
+  "homepage": "https://github.com/seayprem/discord-bot-gruppegrak-music#readme",
+  "dependencies": {
+    "ffmpeg": "0.0.4"
+  }
+}
