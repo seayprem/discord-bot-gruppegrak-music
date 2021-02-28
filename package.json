@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/seayprem/discord-bot-gruppegrak-music#readme",
   "dependencies": {
+    "discord.js": "^12.5.1",
     "ffmpeg": "0.0.4",
     "opusscript": "0.0.8",
     "ytdl-core": "^4.5.0"
