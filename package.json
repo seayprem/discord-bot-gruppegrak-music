@@ -1,0 +1,19 @@
+{
+  "name": "gruppegrak",
+  "version": "1.0.0",
+  "description": "สำหรับไว้ฟังเพลงใน Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seayprem/discord-bot-gruppegrak-music.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seayprem/discord-bot-gruppegrak-music/issues"
+  },
+  "homepage": "https://github.com/seayprem/discord-bot-gruppegrak-music#readme"
+}
