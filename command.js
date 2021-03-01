@@ -26,7 +26,7 @@ async function findVideo(query) {
 }
 
 async function stop(msg) {
-  const vc = msg.member.channel;
+  const vc = msg.member.voice.channel;
   await vc.leave();
 
   await msg.reply('Stopped. ');
