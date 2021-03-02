@@ -1,7 +1,7 @@
 const downloadYT = require('ytdl-core');
 const searchYT = require('yt-search');
 
-async function play(msg, ...args) { // 
+async function play(msg, ...args) { 
   const vc = msg.member.voice.channel;
 
   const connection = await vc.join();
@@ -11,10 +11,10 @@ async function play(msg, ...args) { //
     const stream = downloadYT(video.url, {filter: 'audioonly'});
     connection.play(stream, { seek: 0, volume: 1 });
 
-    await msg.reply(`Now Playing \`${video.title}\`.`);
+    await msg.reply(`ตอนนี้กำลังเล่น \`${video.title}\`.`);
 
   } else {
-    await msg.reply(`No result found.`);
+    await msg.reply(`ไม่พบการค้นหา`);
   }
 }
 
@@ -29,7 +29,7 @@ async function stop(msg) {
   const vc = msg.member.voice.channel;
   await vc.leave();
 
-  await msg.reply('Stopped. ');
+  await msg.reply('หยุดทำงาน');
 }
 
 module.exports.play = play;
