@@ -2,7 +2,6 @@
 สำหรับไว้ฟังเพลงใน Discord
 
 ## วิธีการใช้งาน
-- npm install หรือ npm i
-- put your token
-- npm start หรือ node index.js
-- enjoy
+
+`npm install`  เพื่อติดตั้ง Package ในไฟล์ Packge.json ที่มีไว้ให้  <br><br>
+`npm start`  เพื่อใช้งานได้เลย อย่าลืมใส่ Token
