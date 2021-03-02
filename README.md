@@ -2,7 +2,7 @@
 สำหรับไว้ฟังเพลงใน Discord
 
 ## วิธีการใช้งาน
-- npm install || npm i
+- npm install หรือ npm i
 - put your token
-- npm start || node index.js
+- npm start หรือ node index.js
 - enjoy
